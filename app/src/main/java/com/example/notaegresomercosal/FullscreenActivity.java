@@ -20,6 +20,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 import com.example.notaegresomercosal.databinding.ActivityFullscreenBinding;
 
@@ -107,7 +108,7 @@ public class FullscreenActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         binding = ActivityFullscreenBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        Toast.makeText(this, "Hello word", Toast.LENGTH_SHORT).show();
         mVisible = true;
         mControlsView = binding.fullscreenContentControls;
         mContentView = binding.fullscreenContent;
