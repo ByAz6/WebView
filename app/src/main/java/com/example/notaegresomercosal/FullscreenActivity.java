@@ -108,7 +108,7 @@ public class FullscreenActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         binding = ActivityFullscreenBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        Toast.makeText(this, "Hello word", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Primer commit", Toast.LENGTH_SHORT).show();
         mVisible = true;
         mControlsView = binding.fullscreenContentControls;
         mContentView = binding.fullscreenContent;
